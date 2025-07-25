@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahaya PMO</title>
+    <style>
+        :root {
+            --primary-bg: #0a192f;
+            --secondary-bg: #112240;
+            --primary-text: #fff;
+            --accent: #64ffda;
+        }
+        body {
+            background: var(--primary-bg);
+            color: var(--primary-text);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem 1rem 1rem;
+        }
+        nav {
+            margin-bottom: 1.5rem;
+        }
+        nav button {
+            background: none;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+            padding: 0.5rem 1.5rem;
+            margin: 0.2rem;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        nav button:hover {
+            background: var(--accent);
+            color: var(--primary-bg);
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: var(--secondary-bg);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 0 20px #0002;
+        }
+        h1, h2 {
+            color: var(--accent);
+        }
+        .creator-section {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .creator-section img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .creator-section .name {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        .creator-section .ai {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 1rem;
+        }
+        .creator-section .biodata {
+            font-size: 1rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .creator-section .alasan {
+            background: rgba(100,255,218,0.08);
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            margin: 1rem auto 0 auto;
+            max-width: 500px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: left;
+        }
+        .img-ilustrasi {
+            display: block;
+            margin: 2rem auto 1rem auto;
+            max-width: 350px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 0 12px #0004;
+        }
+        .penutup {
+            margin-top: 2.5rem;
+            background: rgba(100,255,218,0.08);
+            border-left: 4px solid var(--accent);
+            padding: 1.2rem;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #aaa;
+            margin-top: 2rem;
+        }
+        /* Blue theme */
+        .blue-theme {
+            --primary-bg: #1e3a8a;
+            --secondary-bg: #2563eb;
+            --primary-text: #fff;
+            --accent: #38bdf8;
+        }
+        /* Dark theme */
+        .dark-theme {
+            --primary-bg: #0a192f;
+            --secondary-bg: #112240;
+            --primary-text: #fff;
+            --accent: #64ffda;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1rem; }
+            .creator-section .alasan { max-width: 100%; }
+        }
+    </style>
+</head>
+<body class="blue-theme">
+    <header>
+        <nav>
+            <button onclick="scrollToSection('pengertian')">Pengertian</button>
+            <button onclick="scrollToSection('dampak')">Dampak</button>
+            <button onclick="scrollToSection('solusi')">Solusi</button>
+            <button onclick="toggleTheme()">Ganti Tema</button>
+        </nav>
+        <div class="creator-section">
+            <img src="https://yt3.googleusercontent.com/ysOqUaPm00nK1WK3ybnXAMwLh_DB837JVj81rWjTNF-kWLt9TX82auF7ITRhjabQG-w93TQG=s160-c-k-c0x00ffffff-no-rj" alt="Foto Pembuat">
+            <div class="name">Gustavo</div>
+            <div class="ai">ini dibuat pakai ai wkwkwk</div>
+            <div class="biodata">
+                <b>Nama:</b> Gustavo<br>
+                <b>Umur:</b> 14
+            </div>
+            <div class="alasan">
+                <b>Mengapa saya membuat website ini?</b><br>
+                Karena supaya saya bisa mengedukasi orang-orang karena masih banyak orang-orang yang tidak bisa terlepas dari kecanduan PMO.
+            </div>
+        </div>
+        <h1>Bahaya PMO (Porn, Masturbation, Orgasm)</h1>
+    </header>
+    <div class="container">
+        <section id="pengertian">
+            <h2>Pengertian PMO</h2>
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi Bahaya PMO" class="img-ilustrasi">
+            <p>
+                <b>PMO</b> adalah singkatan dari <b>Porn</b> (pornografi), <b>Masturbation</b> (masturbasi), dan <b>Orgasm</b> (orgasme). PMO merupakan istilah yang digunakan untuk menggambarkan kebiasaan mengonsumsi konten pornografi, melakukan masturbasi, dan mencapai orgasme secara berulang-ulang. 
+            </p>
+            <p>
+                Kebiasaan ini seringkali dimulai dari rasa penasaran, tekanan lingkungan, atau kemudahan akses internet. PMO dapat menjadi candu karena otak melepaskan hormon dopamin setiap kali seseorang melakukan aktivitas tersebut, sehingga menimbulkan rasa senang sesaat. Namun, jika dilakukan terus-menerus, otak akan membutuhkan rangsangan yang lebih besar untuk mendapatkan kepuasan yang sama, sehingga seseorang bisa terjebak dalam siklus kecanduan.
+            </p>
+            <p>
+                PMO tidak hanya berdampak pada fisik, tetapi juga pada mental, sosial, dan spiritual. Banyak orang yang tidak menyadari bahwa kebiasaan ini bisa mengganggu kehidupan sehari-hari, menurunkan produktivitas, dan merusak hubungan dengan orang lain. Selain itu, konsumsi pornografi yang berlebihan dapat mengubah cara berpikir dan memandang lawan jenis secara tidak sehat.
+            </p>
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Ilustrasi Kecanduan PMO" class="img-ilustrasi">
+            <p>
+                Menurut penelitian, kecanduan PMO dapat menyebabkan perubahan pada struktur otak, terutama pada bagian yang mengatur motivasi, kontrol diri, dan emosi. Hal ini membuat seseorang sulit untuk berhenti, meskipun sudah mengetahui dampak buruknya. PMO juga dapat menyebabkan perasaan bersalah, malu, dan rendah diri, sehingga menurunkan kualitas hidup secara keseluruhan.
+            </p>
+        </section>
+        <section id="dampak">
+            <h2>Dampak Negatif PMO</h2>
+            <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=600&q=80" alt="Dampak Negatif PMO" class="img-ilustrasi">
+            <ul>
+                <li>
+                    <b>Kesehatan Mental:</b> PMO dapat menyebabkan kecanduan, depresi, kecemasan, stres berlebihan, dan menurunkan rasa percaya diri. Seseorang yang kecanduan PMO sering merasa bersalah, malu, dan sulit mengendalikan dorongan. Bahkan, beberapa kasus menunjukkan adanya gangguan mental seperti anhedonia (tidak bisa merasakan kebahagiaan).
+                </li>
+                <li>
+                    <b>Kesehatan Fisik:</b> PMO yang berlebihan dapat menyebabkan kelelahan kronis, gangguan tidur, penurunan energi, bahkan disfungsi seksual seperti ejakulasi dini, impotensi, atau penurunan gairah seksual terhadap pasangan.
+                </li>
+                <li>
+                    <b>Kerusakan Otak:</b> Konsumsi pornografi berlebihan dapat mengubah struktur dan fungsi otak, menurunkan motivasi, mengganggu kemampuan fokus, dan membuat seseorang sulit menikmati aktivitas normal. Otak menjadi kurang sensitif terhadap rangsangan alami, sehingga membutuhkan rangsangan yang lebih ekstrem.
+                </li>
+                <li>
+                    <b>Hubungan Sosial:</b> Kecanduan PMO dapat menyebabkan isolasi sosial, sulit membangun hubungan sehat, menurunkan empati, dan membuat seseorang lebih tertutup atau menarik diri dari lingkungan. Hal ini juga bisa menyebabkan konflik dengan keluarga atau pasangan.
+                </li>
+                <li>
+                    <b>Penurunan Produktivitas:</b> Waktu dan energi terbuang untuk PMO, sehingga prestasi belajar atau kerja menurun, sulit mencapai target, dan kehilangan semangat untuk berkembang. Banyak orang yang kecanduan PMO merasa sulit untuk fokus dan menyelesaikan tugas-tugas penting.
+                </li>
+                <li>
+                    <b>Masalah Spiritual:</b> PMO sering bertentangan dengan nilai agama dan moral, menimbulkan rasa bersalah, dan menjauhkan seseorang dari aktivitas spiritual. Hal ini dapat membuat seseorang merasa jauh dari Tuhan dan kehilangan makna hidup.
+                </li>
+                <li>
+                    <b>Masalah Kesehatan Reproduksi:</b> PMO yang berlebihan dapat menyebabkan gangguan pada sistem reproduksi, seperti penurunan kualitas sperma, gangguan hormonal, dan bahkan infertilitas.
+                </li>
+                <li>
+                    <b>Risiko Ketergantungan:</b> PMO dapat menjadi candu seperti narkoba, di mana seseorang terus mencari sensasi baru dan sulit berhenti meski sudah tahu risikonya. Hal ini dapat menyebabkan penurunan kualitas hidup secara signifikan.
+                </li>
+                <li>
+                    <b>Distorsi Persepsi Seksual:</b> Konsumsi pornografi secara terus-menerus dapat menyebabkan distorsi dalam memandang seksualitas dan hubungan, sehingga seseorang memiliki ekspektasi yang tidak realistis terhadap pasangan atau hubungan intim.
+                </li>
+                <li>
+                    <b>Gangguan Keuangan:</b> Beberapa orang bahkan rela mengeluarkan uang untuk mengakses konten pornografi berbayar, sehingga berdampak pada kondisi keuangan pribadi.
+                </li>
+            </ul>
+        </section>
+        <section id="solusi">
+            <h2>Solusi & Cara Mengatasi PMO</h2>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Solusi PMO" class="img-ilustrasi">
+            <ul>
+                <li>
+                    <b>Pahami Bahayanya:</b> Edukasi diri tentang dampak negatif PMO agar lebih termotivasi untuk berhenti. Mengetahui risiko jangka panjang akan membuat kita lebih waspada dan berusaha menghindari kebiasaan buruk ini.
+                </li>
+                <li>
+                    <b>Batasi Akses:</b> Pasang filter internet, hapus konten pornografi dari perangkat, dan jauhi lingkungan atau teman yang menjadi pemicu. Jangan ragu untuk mengganti perangkat atau mengatur ulang aplikasi jika perlu.
+                </li>
+                <li>
+                    <b>Isi Waktu dengan Kegiatan Positif:</b> Lakukan aktivitas yang bermanfaat seperti olahraga, belajar, berkarya, membaca, atau aktif di komunitas. Kegiatan positif dapat mengalihkan perhatian dari dorongan PMO dan membantu membangun kebiasaan baru yang lebih sehat.
+                </li>
+                <li>
+                    <b>Cari Dukungan:</b> Ceritakan masalah ke orang terpercaya, seperti keluarga, sahabat, atau guru. Bergabung dengan komunitas anti-PMO juga bisa membantu, karena kamu bisa saling mendukung dan berbagi pengalaman.
+                </li>
+                <li>
+                    <b>Perkuat Iman dan Spiritualitas:</b> Dekatkan diri pada agama dan nilai moral, perbanyak ibadah, dan cari makna hidup yang lebih dalam. Spiritualitas yang kuat dapat menjadi benteng dari godaan PMO.
+                </li>
+                <li>
+                    <b>Kelola Stres dengan Baik:</b> Temukan cara sehat untuk mengatasi stres, seperti meditasi, menulis jurnal, atau melakukan hobi. Jangan jadikan PMO sebagai pelarian dari masalah.
+                </li>
+                <li>
+                    <b>Terapi Profesional:</b> Jika kecanduan sudah berat, jangan ragu untuk konsultasi ke psikolog atau konselor profesional. Mereka dapat membantu dengan terapi perilaku dan strategi khusus untuk mengatasi kecanduan.
+                </li>
+                <li>
+                    <b>Buat Target dan Catatan Perkembangan:</b> Catat kemajuan setiap hari, rayakan pencapaian kecil, dan jangan menyerah jika gagal. Proses berhenti PMO membutuhkan waktu dan kesabaran, jadi tetaplah konsisten dan terus berusaha.
+                </li>
+                <li>
+                    <b>Jauhi Pemicu:</b> Kenali situasi, tempat, atau emosi yang biasanya memicu keinginan PMO, lalu hindari atau atasi dengan cara yang sehat.
+                </li>
+                <li>
+                    <b>Bangun Pola Hidup Sehat:</b> Tidur cukup, makan makanan bergizi, dan rutin berolahraga agar tubuh dan pikiran tetap sehat dan kuat melawan godaan.
+                </li>
+            </ul>
+        </section>
+        <div class="penutup">
+            Terima kasih yang sudah melihatnya buhaha dan jangan lupa follow ig <b>@mamatsalamanca</b>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Edukasi Bahaya PMO. All rights reserved.
+    </footer>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            if (body.classList.contains('blue-theme')) {
+                body.classList.remove('blue-theme');
+                body.classList.add('dark-theme');
+            } else {
+                body.classList.remove('dark-theme');
+                body.classList.add('blue-theme');
+            }
+        }
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+        }
+    </script>
+</body>
+</html>
